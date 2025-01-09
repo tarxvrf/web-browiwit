@@ -3,11 +3,11 @@ import React from "react";
 const Portofolio = () => {
   return (
     <div className="px-5 my-5 border border-teal-300 rounded-xl">
-      <h1 className="flex justify-center text-5xl sm:py-5 text-teal-300">
+      <h1 data-aos="zoom-out" className="flex justify-center text-5xl sm:py-5 text-teal-300">
         Portofolio
       </h1>
       <div className="grid lg:grid-cols-6 sm:grid-cols-4 gap-5 pt-5 m-5">
-        <div className="col-span-2 border rounded-xl">
+        <div data-aos="flip-left" className="col-span-2 border rounded-xl">
           <div className="">
             <img                            
               className="flex justify-center p-2 pb-2"
@@ -25,7 +25,7 @@ const Portofolio = () => {
 
         </div>
 
-        <div className="col-span-2 border rounded-xl">
+        <div data-aos="flip-right" className="col-span-2 border rounded-xl">
           <div className="">
             <img                         
               className="flex justify-center p-2"

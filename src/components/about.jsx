@@ -6,10 +6,10 @@ const About = () => {
 
   return (
     <div className="about pt-5">
-      <h1 className="text-center text-5xl text-teal-300">About Us</h1>
+      <h1 data-aos="zoom-in-down" className="text-center text-5xl text-teal-300">About Us</h1>
       <div className="grid grid-cols-6 gap-5 container mx-auto p-10">
         <div className="sm:col-span-3 col-span-6 ">
-          <div className="w-full h-full flex lg:justify-end sm:justify-center">
+          <div data-aos="zoom-in-up" delay="50" className="w-full h-full flex lg:justify-end sm:justify-center">
             <img
               height={300}
               width={300}
@@ -21,17 +21,15 @@ const About = () => {
         </div>
         <div className="sm:col-span-3 col-span-6 lg:col-span-2">
           <div className="w-full sm:h-[250px]">
-            <h1 className="font-bold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-              exercitationem.
+            <h1 data-aos="zoom-out" className="font-semibold">
+              <i className="text-xl">Saya</i> menguasai beberapa teknologi seperti <span className="text-teal-400">frontend</span> dan <span className="text-teal-400">backend.</span> 
             </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium, atque earum. Impedit eligendi exercitationem numquam.
-            </p>
-            <div className="flex flex-wrap gap-5 pt-3">
-              <div>
+            <br />
+            <div data-aos="zoom-in">
+              Berikut ini Teknologi yg saya gunakan beserta tools dan librarynya.
+            </div>
+            <div   className="flex flex-wrap gap-5 pt-3">
+              <div data-aos="flip-right">
                 <h1 className="text-lg text-teal-300 font-thin">FrontEnd</h1>
                 <ul>
                   {skilfe.map((item, index) => (
@@ -40,7 +38,7 @@ const About = () => {
                 </ul>
               </div>
 
-              <div>
+              <div data-aos="flip-right">
                 <h1 className="text-lg text-teal-300">BackEnd</h1>
                 <ul>
                   {skilbe.map((item, index) => (
