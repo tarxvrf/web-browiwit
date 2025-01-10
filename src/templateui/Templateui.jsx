@@ -1,7 +1,4 @@
-
-
-import Hero from '@/components/Hero'
-import Navmenu from '@/components/menudropdown/Navmenu'
+import Navmenu from '@/components/Navmenu'
 import React from 'react'
 
 const Templateui = ({children}) => {

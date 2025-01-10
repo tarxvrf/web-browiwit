@@ -18,7 +18,7 @@ useEffect(()=>{
 
   return (
 
-    <div className="container mx-auto">
+    <div className="mt-20 sm:mt-16">
     <Home/>
     <About/>
     <Portofolio/>

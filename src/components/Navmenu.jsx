@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Menu from "./Menu";
+import Menu from "@/components/menudropdown/Menu";
 
 export default function Navmenu() {
-  return (    
-    <div className="sticky top-0 container mx-auto mt-5 sm:mb-3 outline outline-1 rounded-lg outline-cyan-300 bg-base-300">
-      <div className="flex items-center flex-row gap-5 justify-between pt-5 pb-2">
+  return (
+    <div className="flex justify-center">   
+    <div className="fixed w-full top-0 z-50 container mt-3 sm:mb-3 outline outline-1 rounded-lg outline-cyan-300 bg-base-300">
+      <div className="flex items-center flex-row gap-5 justify-between p-3">
         <div className="order-1 sm:order-2 ">
           <Menu />
         </div>
@@ -18,7 +18,7 @@ export default function Navmenu() {
           <button className="btn btn-xs  btn-warning">Sign Up</button>
         </div>
       </div>
-  
+  </div> 
 </div>
   );
 }
