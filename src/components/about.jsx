@@ -5,9 +5,9 @@ const About = () => {
   const skilbe = ["django", "restfulapi", "sql"];
 
   return (
-    <div className="about pt-5">
+    <div className=" container mx-auto pt-5">
       <h1 data-aos="zoom-in-down" className="text-center text-5xl text-teal-300">About Us</h1>
-      <div className="grid grid-cols-6 gap-5 container mx-auto p-10">
+      <div className="grid grid-cols-6 gap-5 p-10">
         <div className="sm:col-span-3 col-span-6 ">
           <div data-aos="zoom-in-up" delay="50" className="w-full h-full flex lg:justify-end sm:justify-center">
             <img
