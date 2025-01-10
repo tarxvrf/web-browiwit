@@ -18,7 +18,7 @@ useEffect(()=>{
 
   return (
 
-    <div className="w-full mt-14">
+    <div className="flex flex-col justify-center w-full mt-14">
     <Home/>  
     <About/>
     <Portofolio/>
