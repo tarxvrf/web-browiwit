@@ -3,7 +3,7 @@ import React from 'react'
 
 const Templateui = ({children}) => {
   return (
-    <div> 
+    <div className='container mx-auto'> 
     <Navmenu/>
     {children}
      
