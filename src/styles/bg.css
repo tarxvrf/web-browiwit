@@ -4,5 +4,7 @@
     background-position: center;
     background-size: cover;
     opacity: inherit;  
-    mix-blend-mode:lighten;  
+    width: 100%;
+    
+    ;  
 }
