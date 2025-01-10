@@ -18,7 +18,7 @@ useEffect(()=>{
 
   return (
 
-    <div className="border border-yellow-500 grid grid-cols-1 mt-20 sm:mt-16 ">
+    <div className="border border-yellow-500 mt-20 sm:mt-16 ">
     <Home/>
     <About/>
     <Portofolio/>
