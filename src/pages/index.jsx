@@ -18,8 +18,11 @@ useEffect(()=>{
 
   return (
 
-    <div className="border border-yellow-500 mt-20 sm:mt-16 ">
-    <Home/>   
+    <div className="mt-14">
+    <Home/>  
+    <About/>
+    <Portofolio/>
+    
     </div>
    
   );

@@ -52,7 +52,7 @@ const Hero = () => {
           Bahasa Pemrograman dan Tools yg saya{" "}
           <span className="text-teal-400">kuasai</span>{" "}
         </h1>
-        <div data-aos="fade-left">
+        <div data-aos="fade-right">
           <SponsorCoding />
         </div>
       </div>
