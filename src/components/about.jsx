@@ -5,7 +5,7 @@ const About = () => {
   const skilbe = ["django", "restfulapi", "sql"];
 
   return (
-    <div className=" container mx-auto pt-5">
+    <div className=" pt-5">
       <h1 data-aos="zoom-in-down" className="text-center text-5xl text-teal-300">About Us</h1>
       <div className="grid grid-cols-6 gap-5 p-10">
         <div className="sm:col-span-3 col-span-6 ">
@@ -20,12 +20,12 @@ const About = () => {
           </div>
         </div>
         <div className="sm:col-span-3 col-span-6 lg:col-span-2">
-          <div className="w-full sm:h-[250px]">
-            <h1 data-aos="zoom-out" className="font-semibold">
+          <div className="w-full sm:h-[250px]">            
+            <div data-aos="zoom-in">
+            <h1 className="font-semibold">
               <i className="text-xl">Saya</i> menguasai beberapa teknologi seperti <span className="text-teal-400">frontend</span> dan <span className="text-teal-400">backend.</span> 
             </h1>
             <br />
-            <div data-aos="zoom-in">
               Berikut ini Teknologi yg saya gunakan beserta tools dan librarynya.
             </div>
             <div   className="flex flex-wrap gap-5 pt-3">

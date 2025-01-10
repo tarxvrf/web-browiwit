@@ -13,9 +13,9 @@ export default function Navmenu() {
             Logo
           </button>
         </div>
-        <div className="flex gap-3 px-3 order-3">
-          <button className="btn btn-xs btn-warning">Sign In</button>
-          <button className="btn btn-xs  btn-warning">Sign Up</button>
+        <div className="flex gap-2 order-3">
+          <button className="rounded-md border border-teal-400 p-1 text-xs">SignIn</button>
+          <button className="rounded-md border border-teal-400 p-1 text-xs">SignUp</button>
         </div>
       </div>
   </div> 
