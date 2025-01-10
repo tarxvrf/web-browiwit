@@ -3,7 +3,7 @@ import SponsorCoding from "@/components/sponsor";
 const Hero = () => {
   return (
     <div id="bg" className="flex flex-col">
-      <div className="sm:flex px-5 pt-5 pb-5">
+      <div className="sm:flex px-5 lg:pl-36 pt-5 pb-5">
         <div data-aos="fade-right" className="">
           <div className="sm:pb-3 flex flex-col">
             <h1 className="font-bold text-teal-300 text-center sm:text-start sm:text-5xl text-2xl ">
@@ -34,7 +34,7 @@ const Hero = () => {
               alt=""
             />
             <h4 className="text-sm text-left ">
-              <span className="font">
+              <span className="font sm:text-xl">
                 "Semakin meningkatnya perkembangan teknologi "{" "}
               </span>
               dan tantangan terhadap kebutuhan seorang{" "}
