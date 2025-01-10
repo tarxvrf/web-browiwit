@@ -20,8 +20,7 @@ useEffect(()=>{
 
     <div className="flex flex-col justify-center boreder border-yellow-400 w-full mt-14">
     <Home/>  
-    <About/>
-    <Portofolio/>
+  
 
     </div>
    

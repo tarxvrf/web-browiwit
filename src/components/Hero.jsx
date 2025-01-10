@@ -3,7 +3,7 @@ import SponsorCoding from "@/components/sponsor";
 const Hero = () => {
   return (
     <div id="bg" className="flex flex-col">
-      <div className=" grid sm:grid-cols-2 px-5 pt-5 pb-5">
+      <div className="sm:flex px-5 pt-5 pb-5">
         <div data-aos="fade-right" className="">
           <div className="sm:pb-3 flex flex-col">
             <h1 className="font-bold text-teal-300 text-center sm:text-start sm:text-5xl text-2xl ">
@@ -46,6 +46,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
       <div data-aos="fade-down" className="pt-5">
         <h1 className="text-center font-semibold">
           {" "}
