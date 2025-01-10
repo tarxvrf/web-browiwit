@@ -2,7 +2,7 @@ import React from "react";
 import SponsorCoding from "@/components/sponsor";
 const Hero = () => {
   return (
-    <div id="bg" className="container mx-auto">
+    <div id="bg">
       <div className="border border-teal-400 grid sm:grid-cols-2 px-5 pt-5 pb-5">
         <div data-aos="fade-right" className="">
           <div className="sm:pb-3 flex flex-col">
