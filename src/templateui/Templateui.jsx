@@ -3,7 +3,7 @@ import React from 'react'
 
 const Templateui = ({children}) => {
   return (
-    <div className='container mx-auto border border-red-500'> 
+    <div> 
     <Navmenu/>
     {children}
      

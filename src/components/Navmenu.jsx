@@ -2,9 +2,9 @@ import Menu from "@/components/menudropdown/Menu";
 
 export default function Navmenu() {
   return (
-    <div className="flex justify-center">
-      <div className="fixed top-0 z-50 mt-3 sm:mb-3 outline outline-1 rounded-lg outline-cyan-300 bg-base-300">
-        <div className="flex items-center flex-row gap-5 justify-between p-3">
+    
+      <div className="fixed top-0 z-50 mt-3 left-1 right-1 sm:mb-3 outline outline-1 rounded-lg outline-cyan-300 bg-base-300">
+        <div className="flex items-center flex-row gap-1 justify-between p-3">
           <div className="px-3 order-1 sm:order-2 ">
             <Menu />
           </div>
@@ -23,6 +23,6 @@ export default function Navmenu() {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 }
