@@ -7,8 +7,7 @@ const Hero = () => {
       "Welcome browiwit.dev",
       "I am fullstack Website Developer",
       " I want to share my portofolio",
-      "come join me",
-      "to collaborate",
+      "come join me to collaborate",
     ],
   };
   const [text] = useTypewriter({
@@ -20,25 +19,38 @@ const Hero = () => {
 
   return (
     <div id="bg" className="flex flex-col pt-5 pb-5">
-      <div className="grid md:grid-cols-12 border gap-10">
-        <div className="border md:col-start-2 col-span-5">
-          <span className="text-5xl">Hello</span>,<span className="text-yellow-300">{text}{" "}</span> 
-          <span className="text-yellow-300">
-            <Cursor />
+      <div className="grid md:grid-cols-12 gap-14 pb-5">
+        <div data-aos="fade-right" className="md:col-start-2 col-span-5 px-3">
+          <h1>
+            <span className="text-5xl">Hello</span> ,{" "}
+          </h1>
+          <span className="text-yellow-300 lg:text-lg md:text-sm text-sm">
+            {text}{" "}
           </span>
-          <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Exercitationem fuga voluptate ullam perspiciatis repellendus ad
-            pariatur rem recusandae, modi dolorem?
+          <span className="text-yellow-300">
+            <Cursor />{" "}
+          </span>
+
+          <div className="text-center md:text-left pt-5">
+            Kemajuan Website dalam beberapa tahun terakhir telah mengalami
+            perkembangan yang sangat pesat, baik dari segi teknologi, desain,
+            maupun fungsionalitas. Berikut adalah beberapa poin penting terkait
+            kemajuan website. 
           </div>
         </div>
-        <div className="flex flex-col px-5 border items-center col-span-5 gap-5">
-          <div>
-            <img width={100} className="rounded-full animate-bounce" src="./assets/ball.png" alt="" />
+        <div data-aos="fade-left" className="gap-5 col-span-5">
+          <div className="flex flex-col justify-center items-center">
+            <img
+              width={100}
+              className="rounded-full animate-bounce"
+              src="./assets/ball.png"
+              alt=""
+            />
           </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            ex.Saat ini saya bekerja sebagai fullstack developer
+          <div className="text-left px-5 ">
+          Seorang Fullstack Developer bertanggung jawab untuk
+            membangun aplikasi secara keseluruhan, mulai dari antarmuka pengguna
+            hingga server yang mengelola data dan proses
           </div>
         </div>
       </div>
