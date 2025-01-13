@@ -2,7 +2,7 @@ import React from "react";
 
 const Portofolio = () => {
   return (
-    <div className="p-10">
+    <div className="flex flex-col">
       <div data-aos="zoom-out" className="flex justify-center ">
         <h1 className="text-5xl py-5 text-teal-300">Portofolio</h1>
       </div>

@@ -18,11 +18,10 @@ useEffect(()=>{
 
   return (
 
-    <div className="flex flex-col justify-center w-full mt-14">
-    <Home/>  
-    <About/> 
-    <Portofolio/>
-  
+    <div className="flex flex-col justify-center w-full mt-14 ">
+    <Home/>
+    <About/>
+    
 
     </div>
    

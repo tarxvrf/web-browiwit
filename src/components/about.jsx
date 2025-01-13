@@ -33,7 +33,7 @@ const About = () => {
         </div>
        
           <div className="pt-5 w-full sm:h-[250px]">
-            <div data-aos="zoom-in" className="col-span-2">
+            <div data-aos="zoom-in" >
               <h1 className="font-semibold">
                 <i className="text-xl">Saya</i> menguasai beberapa teknologi
                 seperti <span className="text-teal-400">frontend</span> dan{" "}
@@ -43,7 +43,7 @@ const About = () => {
               Berikut ini Teknologi yg saya gunakan beserta tools dan
               librarynya.
             </div>
-            <div className="col-span-2">
+            <div >
             <div className="flex flex-wrap gap-5 pt-3">
               <div data-aos="flip-right">
                 <h1 className="text-lg text-teal-300 font-thin">FrontEnd</h1>
