@@ -1,14 +1,27 @@
 import React from "react";
 import SponsorCoding from "@/components/sponsor";
+import { useTypewriter,Cursor } from "react-simple-typewriter";
 const Hero = () => {
+  const skill={
+    string:[ 'Welcome browiwit.dev','I am fullstack Website Developer',' I want to share my portofolio','come join me','to collaborate' ]
+  }
+  const [text] = useTypewriter({
+    words:skill.string,
+    loop:true,
+    delaySpeed:1500,
+    deleteSpeed:100
+  })
+
   return (
     <div className="flex flex-col">
       <div className="sm:flex px-5 lg:pl-36 pt-5 pb-5">
         <div data-aos="fade-right" className="">
           <div className="sm:pb-3 flex flex-col">
-            <h1 className="font-bold text-teal-300 text-center sm:text-start sm:text-5xl text-2xl ">
-              browiwit.dev
-            </h1>
+         <h1 className="text-3xl"><i>Hello,</i></h1> 
+            <h1 className="font-light text-yellow-300 text-center sm:text-start lg:text-5xl text-2xl ">
+              {text}
+             <span className="text-red-500" ><Cursor/></span>
+            </h1> <br />
             <h4 className="pt-2 text-center text-md sm:text-left">
               Perkenalkan nama saya{" "}
               <span className="text-teal-400 font-semibold">
