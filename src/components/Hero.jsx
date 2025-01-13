@@ -20,8 +20,8 @@ const Hero = () => {
 
   return (
     <div id="bg" className="flex flex-col pt-5 pb-5">
-      <div className="grid grid-cols-12 border gap-10">
-        <div className="border col-start-2 col-span-5">
+      <div className="grid md:grid-cols-12 border gap-10">
+        <div className="border md:col-start-2 col-span-5">
           <span className="text-5xl">Hello</span>,<span className="text-yellow-300">{text}{" "}</span> 
           <span className="text-yellow-300">
             <Cursor />
