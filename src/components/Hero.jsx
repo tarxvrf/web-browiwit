@@ -13,7 +13,7 @@ const Hero = () => {
   })
 
   return (
-    <div className="flex flex-col">
+    <div id="bg" className="flex flex-col">
       <div className="sm:flex px-5 lg:pl-36 pt-5 pb-5">
         <div data-aos="fade-right" className="">
           <div className="sm:pb-3 flex flex-col">
