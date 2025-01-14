@@ -2,14 +2,14 @@ import React from "react";
 
 const Portofolio = () => {
   return (
-    <div className="px-5 py-10 border">
+    <div className="px-5 py-20">
       <h1
         data-aos="zoom-in"
-        className="md:text-5xl text-center text-xl text-teal-400"
+        className="md:text-5xl text-center text-3xl text-teal-400"
       >
         Portofolio
       </h1>
-      <div className="grid md:grid-cols-4 gap-5 mt-5 ">
+      <div className="grid md:grid-cols-4 gap-5 mt-10 ">
         <div
           data-aos="flip-right"
           className="flex flex-col gap-3 border rounded-lg py-3 px-3 "

@@ -18,43 +18,36 @@ const Hero = () => {
   });
 
   return (
-    <div className="pt-5 pb-5 border">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-14 pb-5">
-        <div data-aos="fade-right" className="px-3">
-          <h1>
-            <span className="text-5xl">Hello</span> ,{" "}
-          </h1>
-          <span className="text-yellow-300 lg:text-lg md:text-sm text-sm">
-            {text}{" "}
-          </span>
-          <span className="text-yellow-300">
-            <Cursor />{" "}
-          </span>
-
-          <div className="text-center md:text-left pt-5">
-            Kemajuan Website dalam beberapa tahun terakhir telah mengalami
-            perkembangan yang sangat pesat, baik dari segi teknologi, desain,
-            maupun fungsionalitas. Berikut adalah beberapa poin penting terkait
-            kemajuan website.
-          </div>
-        </div>
-        <div data-aos="fade-left" className="gap-5">
-          <div className="flex flex-col justify-center items-center">
-            <img
-              width={100}
-              className="rounded-full animate-bounce"
-              src="./assets/ball.png"
-              alt=""
-            />
-          </div>
-          <div className="text-left px-5 ">
-            Seorang Fullstack Developer bertanggung jawab untuk membangun
-            aplikasi secara keseluruhan, mulai dari antarmuka pengguna hingga
-            server yang mengelola data dan proses
+    <div>
+      <div className="hero md:h-96 w-full py-10">
+        <div className="hero-content text-center">
+          <div className="md:max-w-lg max-w-md">
+            <span className="md:text-3xl text-xl font-bold text-yellow-400">
+              {" "}
+              {text}
+            </span>{" "}
+            <span className="text-red-500 text-2xl font-bold">
+              <Cursor />
+            </span>
+            <p className="py-6 text-lg">
+              I am a fullstack developer with a passion for creating innovative
+              and user-friendly websites.
+            </p>
+            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>
 
+      <div data-aos="zoom-in">
+        <h1 className="text-center font-semibold">
+          {" "}
+          Bahasa Pemrograman dan Tools yg saya{" "}
+          <span className="text-teal-400">kuasai</span>{" "}
+        </h1>
+        <div data-aos="fade-right">
+          <SponsorCoding />
+        </div>
+      </div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ const About = () => {
   const skilbe = ["django", "restfulapi", "sql"];
 
   return (
-    <div className="flex flex-col justify-center items-center gap-5 pt-5 border">
+    <div className="flex flex-col justify-center items-center gap-5 py-20 ">
       <div>
         <h1
           data-aos="zoom-in"

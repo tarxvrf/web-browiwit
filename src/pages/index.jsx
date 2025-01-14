@@ -20,10 +20,10 @@ useEffect(()=>{
 
   return (
 
-    <div className="w-full mt-16 ">
-    
+    <div className="mt-20 ">
+  <Hero/>
   <About/>
-   <Portofolio/>
+  <Portofolio/>
     
     
     </div>

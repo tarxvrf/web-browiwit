@@ -22,7 +22,7 @@ const Sponsor = () => {
   ];
   return (
     <div>
-      <div className="flex justify-center p-5 sm:p-14">
+      <div className="flex justify-center p-3">
         <div className="border p-3 rounded-lg ">
           <ul className="flex flex-row items-center sm:gap-14 gap-3">
             {sponsor.map((val, index) => (
