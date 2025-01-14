@@ -1,8 +1,10 @@
-import Home from "@/components/home";
+
 import About from "@/components/about";
+import Hero from "@/components/Hero";
 import Portofolio from "@/components/portofolio";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Home } from "lucide-react";
 import { useEffect } from "react";
 
 export default function index() {
@@ -18,12 +20,12 @@ useEffect(()=>{
 
   return (
 
-    <div className="container mx-auto w-full mt-16 ">
-    <Home/>
-    <About/>
-    <Portofolio/>
+    <div className="w-full mt-16 ">
     
-
+  <About/>
+   <Portofolio/>
+    
+    
     </div>
    
   );

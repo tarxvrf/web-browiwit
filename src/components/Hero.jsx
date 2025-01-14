@@ -18,9 +18,9 @@ const Hero = () => {
   });
 
   return (
-    <div id="bg" className="flex flex-col pt-5 pb-5">
-      <div className="grid md:grid-cols-12 gap-14 pb-5">
-        <div data-aos="fade-right" className="md:col-start-2 col-span-5 px-3">
+    <div className="pt-5 pb-5 border">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-14 pb-5">
+        <div data-aos="fade-right" className="px-3">
           <h1>
             <span className="text-5xl">Hello</span> ,{" "}
           </h1>
@@ -35,10 +35,10 @@ const Hero = () => {
             Kemajuan Website dalam beberapa tahun terakhir telah mengalami
             perkembangan yang sangat pesat, baik dari segi teknologi, desain,
             maupun fungsionalitas. Berikut adalah beberapa poin penting terkait
-            kemajuan website. 
+            kemajuan website.
           </div>
         </div>
-        <div data-aos="fade-left" className="gap-5 col-span-5">
+        <div data-aos="fade-left" className="gap-5">
           <div className="flex flex-col justify-center items-center">
             <img
               width={100}
@@ -48,23 +48,13 @@ const Hero = () => {
             />
           </div>
           <div className="text-left px-5 ">
-          Seorang Fullstack Developer bertanggung jawab untuk
-            membangun aplikasi secara keseluruhan, mulai dari antarmuka pengguna
-            hingga server yang mengelola data dan proses
+            Seorang Fullstack Developer bertanggung jawab untuk membangun
+            aplikasi secara keseluruhan, mulai dari antarmuka pengguna hingga
+            server yang mengelola data dan proses
           </div>
         </div>
       </div>
 
-      <div data-aos="zoom-in" className="pt-5">
-        <h1 className="text-center font-semibold">
-          {" "}
-          Bahasa Pemrograman dan Tools yg saya{" "}
-          <span className="text-teal-400">kuasai</span>{" "}
-        </h1>
-        <div data-aos="fade-right">
-          <SponsorCoding />
-        </div>
-      </div>
     </div>
   );
 };
