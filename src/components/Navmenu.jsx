@@ -2,7 +2,7 @@ import Menu from "@/components/menudropdown/Menu";
 
 export default function Navmenu() {
   return (
-    <div className="fixed top-0 z-50 w-full px-3 bg-black border rounded-b-xl">
+    <div className="fixed top-0 z-50 w-full bg-black border rounded-b-xl">
       <div className="flex justify-between py-3 pr-3"> 
         <div className="order-1 sm:order-2 ">
           <Menu />

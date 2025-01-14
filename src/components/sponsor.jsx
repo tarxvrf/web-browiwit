@@ -1,5 +1,5 @@
 import React from "react";
-
+import Marquee from "react-fast-marquee";
 const Sponsor = () => {
   const sponsor = [
     {
@@ -24,18 +24,20 @@ const Sponsor = () => {
     <div>
       <div className="flex justify-center p-3">
         <div className="border p-3 rounded-lg ">
+          <Marquee>
           <ul className="flex flex-row items-center sm:gap-14 gap-3">
-            {sponsor.map((val, index) => (
-              <li key={index}>
+            {sponsor.map((val, index) => (            
+              <li key={index}>                
                 <img
                   className="rounded-sm border"
                   src={val.name}
                   width={50}               
                   alt=""
                 />
-              </li>
+              </li>              
             ))}
           </ul>
+          </Marquee>
         </div>
       </div>
     </div>
