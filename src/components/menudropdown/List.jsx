@@ -14,7 +14,7 @@ export default function List({posisi}) {
     <div > 
       <ul className={posisi}>    
          {pages.map((val,index)=>
-        <li key={index}><Link href={val.link}>{path === val.link ? (<div className="text-yellow-500">{val.paging}</div>):(<span className="text-white">{val.paging}</span>)}</Link></li>
+        <Link href={val.link}>{path === val.link ? (<li key={index} className="text-yellow-400">{val.paging}</li>):(<li className="text-white">{val.paging}</li>)}</Link>
         )}    
        </ul>  
     </div>

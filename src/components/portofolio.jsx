@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Portofolio = () => {
@@ -12,7 +13,7 @@ const Portofolio = () => {
       <div className="grid md:grid-cols-4 gap-5 mt-10 ">
         <div
           data-aos="flip-right"
-          className="flex flex-col gap-3 border rounded-lg py-3 px-3 "
+          className="flex flex-col gap-3 border rounded-lg py-3 px-2 "
         >
           <div className="flex justify-center">
             <img src="./assets/image.png" alt="" />
@@ -21,11 +22,11 @@ const Portofolio = () => {
             Ini merupakan aplikasi calculator sederhana degan menggunakan
             Reactjs
           </h4>
-          <button className="w-1/2 btn btn-outline btn-warning ">klik</button>
+          <Link role="button" className="btn btn-outline w-1/2 btn-warning" href={"https://browiwitapps.vercel.app/"}>lihat</Link>
         </div>
         <div
           data-aos="flip-right"
-          className="flex flex-col gap-3 border rounded-lg py-3 px-3 "
+          className="flex flex-col gap-3 border rounded-lg py-3 px-2"
         >
           <div className="flex justify-center">
             <img src="./assets/image1.png" alt="" />
@@ -34,7 +35,7 @@ const Portofolio = () => {
             Ini merupakan aplikasi music player sederhana degan menggunakan
             Reactjs
           </h4>
-          <button className="w-1/2 btn btn-outline btn-warning ">klik</button>
+          <Link role="button" className="btn btn-outline w-1/2 btn-warning" href={"https://browiwit-music-player.vercel.app/"}>lihat</Link>
         </div>
       </div>
     </div>

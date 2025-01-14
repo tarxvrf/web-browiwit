@@ -29,7 +29,7 @@ const Sponsor = () => {
             {sponsor.map((val, index) => (            
               <li key={index}>                
                 <img
-                  className="rounded-sm border"
+                  className="rounded-sm border sm:mx-0 mx-3"
                   src={val.name}
                   width={50}               
                   alt=""
