@@ -18,11 +18,11 @@ const Hero = () => {
   });
 
   return (
-    <div>
-      <div className="hero md:h-96 w-full py-10">
+   
+      <div className="hero h-96 w-full py-10">
         <div className="hero-content text-center">
-          <div className="md:max-w-lg max-w-md">
-            <span className="md:text-3xl text-xl font-bold text-yellow-400">
+          <div className="max-w-lg ">
+            <span className="text-3xl font-bold text-yellow-400">
               {" "}
               {text}
             </span>{" "}
@@ -38,17 +38,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div data-aos="zoom-in">
-        <h1 className="text-center font-semibold">
-          {" "}
-          Bahasa Pemrograman dan Tools yg saya{" "}
-          <span className="text-teal-400">kuasai</span>{" "}
-        </h1>
-        <div data-aos="fade-right">
-          <SponsorCoding />
-        </div>
-      </div>
-    </div>
+     
+    
   );
 };
 

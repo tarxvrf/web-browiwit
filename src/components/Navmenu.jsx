@@ -9,7 +9,7 @@ export default function Navmenu() {
   
   return (
     <div className="fixed top-0 z-50 w-full bg-black border rounded-b-xl">
-      <div className="flex justify-between items-center py-3 pr-3">
+      <div className="flex justify-between items-center py-3 px-3 pr-3">
         <div className={` hidden sm:block sm:order-2 `}>       
           <List posisi={show}/>         
         </div>

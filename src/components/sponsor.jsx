@@ -21,11 +21,19 @@ const Sponsor = () => {
     {name:'data:image/png;base64,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'}
   ];
   return (
-    <div>
-      <div className="flex justify-center p-3">
-        <div className="border p-3 rounded-lg ">
-          <Marquee>
-          <ul className="flex flex-row items-center sm:gap-14 gap-3">
+    
+      
+        <div className="flex px-100 ">
+         
+           <Marquee
+           speed={30}
+           gradient={true}
+           gradientWidth={20}
+           gradientColor={`grey`}
+           autoFill={true}
+           
+           >
+             <ul className="flex flex-row items-center gap-5 px-5">
             {sponsor.map((val, index) => (            
               <li key={index}>                
                 <img
@@ -37,10 +45,11 @@ const Sponsor = () => {
               </li>              
             ))}
           </ul>
-          </Marquee>
+        </Marquee>
+     
         </div>
-      </div>
-    </div>
+    
+    
   );
 };
 
